@@ -16,4 +16,3 @@ void White(char board[8][8], char w[7]);
 void Black(char board[8][8], char b[7]);
 int WinW(char board[8][8], char w[7], int n);
 int WinB(char board[8][8], char w[7], char b[7], int n);
-
