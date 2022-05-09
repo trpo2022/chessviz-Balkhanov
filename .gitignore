@@ -1,6 +1,10 @@
+# no *.o or *.a files
+*.[oa]
+# no temporary files
+*~
+*swp
+# no *.txt files
 *.txt
-*.o
-*main
-*.Makefile.swp
-main.c~
-#main.c#
+# but track input.txt
+! input.txt
+
